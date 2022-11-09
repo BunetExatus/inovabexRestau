@@ -1,0 +1,161 @@
+body{
+    background-color:brown;
+    background-image:url("imagens/table-g28eb4a4d4_640.jpg");
+    background-size: 80%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+   /*background:radial-gradient(rgb(32,50,100),rgb(72,200,21),rgb(200,30,173));*/
+   /*background:linear-gradient(to top right, rgb(32,50,100),rgb(72,200,21),rgb(200,30,173));*/
+    /*background:linear-gradient(to top brown,gold, whitesmoke);8*/
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+.salad{
+    color:rgb(240, 240, 41);
+}
+
+a{
+    border-radius:15px;
+    width:140px;
+    text-align: center;
+    padding:10px;
+    background-color:rgb(192, 83, 1);
+    color: rgb(255, 255,255);
+    margin-right:20px;
+    margin-left:-10px;
+    margin-top:38px;
+}
+
+a:hover{
+background:transparent;
+border:2px solid rgb(192, 38, 0) inset, 0 0 10px 4px rgb(192, 38, 0);
+}
+
+.Bunet{
+    text-align: center;
+    text-size-adjust: bold;
+    color:rgb(240, 240, 41);
+    background: salmon;
+    margin-top:none;
+    font-size: xx-large;
+}
+
+p{
+    color:rgb(240, 240, 41);
+    font-size:x-large;
+    text-size-adjust: 18px;
+}
+
+h1{
+    text-align: center;
+}
+
+h1 p:hover{
+    background-color:black;
+}
+
+h2{
+color: gold;
+font-size: xx-large;
+}
+h2:hover{
+background-color:black;
+}
+footer p {
+color:whitesmoke;
+text-align: center;
+}
+
+footer a{
+text-align:left;
+margin:10px;
+border-radius:20px;
+font-family:Embassy BT;
+font-size:50px;
+}
+
+footer a:hover{
+background-color:black;
+font-family:arial;
+font-size:20px;
+
+}
+ul{
+list-style: square;
+color: whitesmoke;
+}
+div{
+display: inline-flex;    
+}
+li{
+color: white;
+font-size: x-large;
+}
+ul li a:hover{
+background-color:#6eb8f5;
+}
+
+div img
+{
+width:400px;
+height:350px;
+border-radius:15px;
+box-shadow: 10px 10px 30px 30px rgb(40,40,40);
+}
+
+
+
+.bt_topo{
+text-decoration:none;
+color:rgb(255, 255, 55);
+padding:20px;
+background-color:brown;
+margin-left:1230px;
+width:40px;
+}
+
+.bt_topo:hover{
+background-color:#6eb8f5;
+}
+
+#menu ul li{
+display:inline-block;
+
+}
+
+#menu ul li a{
+text-align: left;
+margin: 10px;
+color: #252525;
+font-size:20px;
+padding:7px 13px;
+border-radius:3px;
+text-decoration: none;
+
+}
+
+#menu ul li a:hover{
+text-transform:uppercase;
+}
+p a{
+margin-left: 10px;
+color: rgb(86, 86, 133);
+border-radius: 20px;
+}
+p a:hover{
+color: #6eb8f5;
+background-color: yellow;
+}
+iframe{
+   border-radius: 50px;
+   width: 200px;
+   height: 400px;
+}
